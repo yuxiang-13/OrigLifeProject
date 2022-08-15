@@ -1,0 +1,23 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\project\\1\\origlife\\source\\origlife\\private\\animation\\origlifeaniminstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue5\\unrealengine-release\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\project\\1\\origlife\\intermediate\\build\\win64\\unrealeditor\\development\\origlife\\definitions.origlife.h",
+            "d:\\project\\1\\origlife\\source\\origlife\\public\\animation\\origlifeaniminstance.h",
+            "d:\\project\\1\\origlife\\intermediate\\build\\win64\\unrealeditor\\inc\\origlife\\origlifeaniminstance.generated.h",
+            "d:\\project\\1\\origlife\\source\\origlife\\public\\player\\origlifeplayercharacterbase.h",
+            "d:\\ue5\\unrealengine-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\ue5\\unrealengine-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\ue5\\unrealengine-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\ue5\\unrealengine-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\ue5\\unrealengine-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\ue5\\unrealengine-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "d:\\project\\1\\origlife\\intermediate\\build\\win64\\unrealeditor\\inc\\origlife\\origlifeplayercharacterbase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

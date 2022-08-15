@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\project\\1\\origlife\\source\\origlife\\private\\ui\\widget\\testactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue5\\unrealengine-release\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\project\\1\\origlife\\intermediate\\build\\win64\\unrealeditor\\development\\origlife\\definitions.origlife.h",
+            "d:\\project\\1\\origlife\\source\\origlife\\public\\ui\\widget\\testactor.h",
+            "d:\\project\\1\\origlife\\intermediate\\build\\win64\\unrealeditor\\inc\\origlife\\testactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

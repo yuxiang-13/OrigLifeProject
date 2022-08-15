@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "OrigLife",
+			"Path": "D:\\project\\1\\OrigLife\\Source\\OrigLife.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "OrigLifeEditor",
+			"Path": "D:\\project\\1\\OrigLife\\Source\\OrigLifeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
