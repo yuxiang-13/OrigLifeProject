@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "OrigLife",
-			"Path": "D:\\project\\OrigLife\\Source\\OrigLife.Target.cs",
+			"Path": "C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Source\\OrigLife.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "OrigLifeEditor",
-			"Path": "D:\\project\\OrigLife\\Source\\OrigLifeEditor.Target.cs",
+			"Path": "C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Source\\OrigLifeEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

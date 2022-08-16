@@ -1,14 +1,14 @@
 {
 	"SourceFiles": [
-		"D:\\project\\1\\OrigLife\\Source\\OrigLife\\OrigLife.Build.cs",
-		"D:\\project\\1\\OrigLife\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
-		"D:\\project\\1\\OrigLife\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
-		"D:\\project\\1\\OrigLife\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
-		"D:\\project\\1\\OrigLife\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
-		"D:\\project\\1\\OrigLife\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
-		"D:\\project\\1\\OrigLife\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfoDump\\RiderShaderInfoDump.Build.cs",
-		"D:\\project\\1\\OrigLife\\Source\\OrigLife.Target.cs",
-		"D:\\project\\1\\OrigLife\\Source\\OrigLifeEditor.Target.cs"
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Source\\OrigLife\\OrigLife.Build.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfoDump\\RiderShaderInfoDump.Build.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Source\\OrigLife.Target.cs",
+		"C:\\Users\\yuxiang\\Documents\\OrigLifeProject\\Source\\OrigLifeEditor.Target.cs"
 	],
-	"EngineVersion": "5.0.1"
+	"EngineVersion": "5.0.3"
 }

@@ -6,6 +6,6 @@
 /NAME:"UnrealEditor-RiderLogging.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\project\1\OrigLife\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLogging\Module.RiderLogging.cpp.obj"
-"..\Intermediate\Build\Win64\UnrealEditor\Development\Default.rc2.res"
-/OUT:"D:\project\1\OrigLife\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLogging\UnrealEditor-RiderLogging.lib"
+"C:\Users\yuxiang\Documents\OrigLifeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLogging\Module.RiderLogging.cpp.obj"
+"C:\Users\yuxiang\Documents\OrigLifeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLogging\Default.rc2.res"
+/OUT:"C:\Users\yuxiang\Documents\OrigLifeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLogging\UnrealEditor-RiderLogging.lib"

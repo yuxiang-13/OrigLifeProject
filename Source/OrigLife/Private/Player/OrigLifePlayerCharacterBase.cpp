@@ -21,6 +21,29 @@ AOrigLifePlayerCharacterBase::AOrigLifePlayerCharacterBase(const FObjectInitiali
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	
+	GetCharacterMovement()->GravityScale = 1.0f;
+	GetCharacterMovement()->MaxAcceleration = 2400.0f;
+	GetCharacterMovement()->BrakingFrictionFactor = 1.0f;
+	GetCharacterMovement()->BrakingFriction = 6.0f;
+	GetCharacterMovement()->GroundFriction = 8.0f;
+	GetCharacterMovement()->BrakingDecelerationWalking = 1400.0f;
+	GetCharacterMovement()->bUseControllerDesiredRotation = false;
+	GetCharacterMovement()->bOrientRotationToMovement = false;
+	GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
+	GetCharacterMovement()->bAllowPhysicsRotationDuringAnimRootMotion = false;
+	GetCharacterMovement()->GetNavAgentPropertiesRef().bCanCrouch = true;
+	GetCharacterMovement()->bCanWalkOffLedgesWhenCrouching = true;
+	GetCharacterMovement()->SetCrouchedHalfHeight(65.0f);
+
+	
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = true;
+	bUseControllerRotationRoll = false;
+
+	BaseEyeHeight = 80.0f;
+	CrouchedEyeHeight = 50.0f;
 }
 
 // Called when the game starts or when spawned
@@ -37,6 +60,7 @@ void AOrigLifePlayerCharacterBase::Tick(float DeltaTime)
 	if (IsValid(GetCharacterMovement()))
 	{
 		const FOrigLifeCharacterGroundInfo& GroundInfo = GetGroundInfo();
+
 		GetCharacterMovement()->MaxFlySpeed = GroundInfo.GroundDistance;
 	}
 }

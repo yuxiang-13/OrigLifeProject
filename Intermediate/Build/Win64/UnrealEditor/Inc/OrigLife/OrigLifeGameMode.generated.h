@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ORIGLIFE_OrigLifeGameMode_generated_h
 
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_SPARSE_DATA
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_SPARSE_DATA
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAOrigLifeGameMode(); \
 	friend struct Z_Construct_UClass_AOrigLifeGameMode_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AOrigLifeGameMode)
 
 
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS \
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAOrigLifeGameMode(); \
 	friend struct Z_Construct_UClass_AOrigLifeGameMode_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AOrigLifeGameMode)
 
 
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_STANDARD_CONSTRUCTORS \
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AOrigLifeGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AOrigLifeGameMode) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AOrigLifeGameMode(AOrigLifeGameMode&&); \
@@ -58,25 +58,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AOrigLifeGameMode)
 
 
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_9_PROLOG
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_GENERATED_BODY_LEGACY \
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_9_PROLOG
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_SPARSE_DATA \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_STANDARD_CONSTRUCTORS \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_SPARSE_DATA \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_GENERATED_BODY \
+#define FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_SPARSE_DATA \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_SPARSE_DATA \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -84,7 +84,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ORIGLIFE_API UClass* StaticClass<class AOrigLifeGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_OrigLife_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h
+#define CURRENT_FILE_ID FID_OrigLifeProject_Source_OrigLife_Public_GamePlay_OrigLifeGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

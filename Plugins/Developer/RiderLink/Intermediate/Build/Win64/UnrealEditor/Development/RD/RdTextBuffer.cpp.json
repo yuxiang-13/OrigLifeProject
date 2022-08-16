@@ -1,11 +1,11 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\project\\1\\origlife\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_gen_cpp\\src\\rdtextbuffer.cpp",
+        "Source": "c:\\users\\yuxiang\\documents\\origlifeproject\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_gen_cpp\\src\\rdtextbuffer.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\project\\1\\origlife\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\rd\\definitions.h",
-            "d:\\project\\1\\origlife\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_gen_cpp\\src\\rdtextbuffer.h"
+            "c:\\users\\yuxiang\\documents\\origlifeproject\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\rd\\definitions.h",
+            "c:\\users\\yuxiang\\documents\\origlifeproject\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_gen_cpp\\src\\rdtextbuffer.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
