@@ -23,14 +23,13 @@ AOrigLifeGameMode::AOrigLifeGameMode()
 	HUDClass = AOrigLifeGameHUD::StaticClass();
 	PlayerControllerClass = AOrigLifePlayerController::StaticClass();
 	PlayerStateClass = AOrigLifePlayerState::StaticClass();
-	// DefaultPawnClass = AOrigLifePlayerCharacterBase::StaticClass();
+	DefaultPawnClass = AOrigLifePlayerCharacterBase::StaticClass();
 
-	
-	// static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter"));
-	// if (PlayerPawnBPClass.Class != NULL)
-	// {
-	// 	DefaultPawnClass = PlayerPawnBPClass.Class;
-	// }
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/Characters/Blueprints/BP_ThirdPersonCharacter"));
+	if (PlayerPawnBPClass.Class != NULL)
+	{
+		DefaultPawnClass = PlayerPawnBPClass.Class;
+	}
 }
 
 void AOrigLifeGameMode::Tick(float DeltaSeconds)
